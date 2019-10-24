@@ -22,16 +22,16 @@ namespace task1
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            string b_id= textBox1.Text;
-            string p_name = textBox2.Text;
-            string qun= textBox3.Text;
+            string b_id= batchid.Text;
+            string p_name = productname.Text;
+            string qun= quntity.Text;
             string rec_date = dateTimePicker1.Text;
             string rel_date = dateTimePicker2.Text;
-            string visco = textBox6.Text;
-            string ph = textBox7.Text;
-            string density = textBox8.Text;
-            string solid = textBox9.Text;
-            string color = textBox10.Text;
+            string visco = visco.Text;
+            string ph = phvalue.Text;
+            string density = density.Text;
+            string solid = solid.Text;
+            string color = color.Text;
             string wash="";
             string crocking="";
             string result="";
